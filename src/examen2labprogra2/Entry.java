@@ -15,9 +15,9 @@ public class Entry {
     private Entry next;       
 
     public Entry(String username, long position) {
-        this.username = username;
-        this.position = position;
-        this.next = null;  
+        this.username=username;
+        this.position=position;
+        this.next=null;  
     }
 
     public String getUsername() {
